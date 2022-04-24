@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <nav class="nav">
+        <h2>Quiz</h2>
+    </nav>
+    <div class="container">
+        <form id="form">
+            <!-- question 1 -->
+            <p>1. 4 + 4 = ?</p>
+            <div class="answers">
+                <div class="answer">
+                    <input type="radio" name="q1" value="c">
+                    <label>8</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="q1" value="f" checked>
+                    <label>9</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="q1" value="f">
+                    <label>10</label>
+                </div>
+            </div>
+            <hr>
+            <!-- question 2 -->
+            <p>2. 8 + 8 = ?</p>
+            <div class="answers">
+                <div class="answer">
+                    <input type="radio" name="q2" value="f" checked>
+                    <label>17</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="q2" value="c">
+                    <label>16</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="q2" value="f">
+                    <label>18</label>
+                </div>
+            </div>
+            <hr>
+            <!-- question 3 -->
+            <p>3. 16 + 16 = ?</p>
+            <div class="answers">
+                <div class="answer">
+                    <input type="radio" name="q3" value="c">
+                    <label>32</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="q3" value="f" checked>
+                    <label>33</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="q3" value="f">
+                    <label>34</label>
+                </div>
+            </div>
+            <hr>
+            <!-- question 4 -->
+            <p>4. 32 + 32 = ?</p>
+            <div class="answers">
+                <div class="answer">
+                    <input type="radio" name="q4" value="f" checked>
+                    <label>65</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="q4" value="f">
+                    <label>66</label>
+                </div>
+                <div class="answer">
+                    <input type="radio" name="q4" value="c">
+                    <label>64</label>
+                </div>
+            </div>
+            <hr>
+            <button id="buton" type="submit">Send</button>
+        </form>
+    </div>
+    <div class="score">
+        <span class="show-score">
+            <span><img class="loading" style="width: 60px; display: none;" src="loading.gif" alt=""></span>
+        </span>
+        <p class="message">
+        </p>
+    </div>
+    <div class="time">
+        <span class="timer">
+
+        </span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
